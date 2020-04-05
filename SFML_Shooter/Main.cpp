@@ -25,7 +25,7 @@ int main() {
 				case Event::KeyPressed :
 					switch (event.key.code)
 					{
-						case Keyboard::Escape: 
+						case Keyboard::Escape:
 							window.close();
 							break;
 					}
